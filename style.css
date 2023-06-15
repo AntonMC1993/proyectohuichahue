@@ -1,0 +1,227 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    background-image: url(images/HOME\ -\ copia.jpg);
+    background-size: cover;
+    background-color: rgb(224, 188, 133);
+    font-family: sans-serif;
+    
+   
+    .rectangulo {  /*Encabezado*/
+        width: 1365px;           
+        height: 140px;          
+        background: rgb(67, 54, 44);        
+        border: 1px solid #ff7a0e; 
+        margin: -50px;
+      }
+}
+
+header {
+    display: flex;
+    padding: 0 565px;
+    height: 50px;
+    border-bottom: 2px solid #f8990a00;
+ 
+
+}
+nav ul li {
+    list-style-type: none;
+   
+}
+
+
+/*botones barra superior*/
+nav ul li a{
+
+    background-color:rgba(0, 0, 0, 0.509);
+    border: #f49207;
+    border-radius: 10px;
+    border-style: groove;
+    float: right;
+    text-align: center;
+    margin-right: 400px;
+    padding: 0 55px;
+    height:49px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    
+    
+}
+
+
+
+nav ul li a{
+    float: right;
+    margin-right: 290px;  /*centrar botones del medio*/
+
+}
+
+nav ul a {    /*boton menú*/
+    float: right;
+    margin-right: 100px;
+    line-height: 83px;
+} 
+nav ul2 a {  /*botón carrito */
+    float: right;
+    margin-right: -950px;
+    line-height: 83px;
+}
+
+
+a:hover { /*cambia de color al situar mouse en botones*/
+    background-color: rgba(44, 44, 44, 0.025);
+    color: rgb(249, 162, 22);
+
+}
+
+      /*Carrusel*/
+
+      .container{
+        margin: auto;
+        background-color: rgba(67, 51, 40, 0.418); /*opacidad recuadro alrededor*/
+        width: 850px;
+        padding: 85px;
+        
+        
+      }
+      
+      ul, li {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+      }
+      
+      ul.slider{
+        position: relative;
+        width: 680px;
+        height: 300px;
+      }
+      
+      ul.slider li {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          opacity: 0;
+          width: inherit;
+          height: inherit;
+          transition: opacity .5s;
+          background:#ebd5b6e5;
+      }
+      
+      ul.slider li img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+      
+      ul.slider li:first-child {
+          opacity: 1; 
+      }
+      
+      ul.slider li:target {
+          opacity: 1; 
+      }
+      
+      .menu{
+        text-align: center;
+        margin: 20px;
+      }
+      
+      .menu li{
+        display: inline-block;
+        text-align: center;
+      }
+      
+      .menu li a{
+        display: inline-block;
+        color: rgb(243, 134, 9);
+        text-decoration: none;
+        background-color: rgb(254, 254, 255);
+        padding: 10px;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        border-radius: 100%;
+      }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.rectangulo2 {  /*Productos destacados*/
+    position: relative;
+    width: 1365px;           
+    height: 80px;          
+    background: rgb(0, 0, 0);        
+    border: 2px solid #e37c14; 
+    margin: -50px;
+    border-style: groove;  
+    text-align: center;
+    font-family: 'Bangers';
+    color: #fffefc;
+    font-size:xx-large;
+    font-weight: 400;
+    line-height: 70px;
+  }
+
+ div ul li {  /*imagenes productos destacados*/
+    
+
+}
+
+.rectangulo3 {  /*Packs*/
+    position: relative;
+    width: 1365px;           
+    height: 80px;          
+    background: rgb(0, 0, 0);        
+    border: 2px solid #e37c14; 
+    margin: -50px;
+    border-style: groove;  
+    text-align: center;
+    font-family: 'Bangers';
+    color: #fffefc;
+    font-size:xx-large;
+    font-weight: 400;
+    line-height: 70px;
+    font-style: normal;
+}
+.burbujas {
+position: relative;
+width: 1314px;
+
+}
+
+
+.rectangulo4 {  /*ObjetivoSocioambientales*/
+    position: relative;
+    width: 1365px;           
+    height: 80px;          
+    background: rgb(0, 0, 0);        
+    border: 2px solid #e37c14; 
+    margin: -50px;
+    border-style: groove;  
+    text-align: center;
+    font-family: 'Bangers';
+    color: #fffefc;
+    font-size:xx-large;
+    font-weight: 400;
+    line-height: 70px;
+    font-style: normal;
+}
+
+.objetivosoc{
+    position: relative;
+    width: 900px;
+
+
+}
+
